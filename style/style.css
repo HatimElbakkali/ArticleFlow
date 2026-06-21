@@ -5,7 +5,6 @@
   font-family: Arial, sans-serif;
 }
 
-/* HEADER */
 .Titre {
   height: 70px;
   background: linear-gradient(90deg, #111, #333);
@@ -29,7 +28,6 @@ nav {
   box-shadow: 0 3px 12px rgba(0,0,0,0.08);
 }
 
-/* INPUT SEARCH */
 .search {
   flex: 1;
   padding: 0.6rem 0.8rem;
@@ -44,7 +42,6 @@ nav {
   box-shadow: 0 0 0 2px rgba(79,70,229,0.2);
 }
 
-/* SELECTS */
 select {
   padding: 0.6rem 0.8rem;
   border: 1px solid #ddd;
@@ -59,7 +56,6 @@ select:focus {
   border-color: #4f46e5;
 }
 
-/* BUTTONS */
 button {
   padding: 0.6rem 0.9rem;
   border: none;
@@ -69,7 +65,6 @@ button {
   transition: 0.2s;
 }
 
-/* FAVORIS ONLY */
 .Favoris-uniquement {
   background: #f59e0b;
   color: white;
@@ -79,7 +74,6 @@ button {
   background: #d97706;
 }
 
-/* ADD BUTTON */
 .Addition {
   background: #4f46e5;
   color: white;
@@ -89,7 +83,6 @@ button {
   background: #4338ca;
 }
 
-/* COUNTER */
 .number-of-article {
   margin: 1rem;
   padding: 0.75rem 1rem;
@@ -99,7 +92,6 @@ button {
   font-weight: bold;
 }
 
-/* ARTICLES CONTAINER LOOK */
 .article {
   background: white;
   margin: 1rem;
@@ -113,7 +105,6 @@ button {
   transform: translateY(-3px);
 }
 
-/* INFO */
 .info {
   display: flex;
   gap: 10px;
@@ -127,7 +118,6 @@ button {
   color: #333;
 }
 
-/* TAG */
 .tag {
   color: white;
   border-radius: 20px;
@@ -136,27 +126,22 @@ button {
   display: inline-block;
 }
 
-/* TECH */
 .tag.tech {
-  background: #3b82f6; /* blue */
+  background: #3b82f6;
 }
 
-/* DESIGN */
 .tag.design {
-  background: #ec4899; /* pink */
+  background: #ec4899; 
 }
 
-/* MARKETING */
 .tag.marketing {
-  background: #22c55e; /* green */
+  background: #22c55e;
 }
 
-/* DEFAULT */
 .tag {
-  background: #6b7280; /* gray fallback */
+  background: #6b7280;
 }
 
-/* BUTTONS */
 .Favoris {
   background: #ffb703;
   border: none;
@@ -177,7 +162,6 @@ button {
   font-weight: bold;
 }
 
-/* FORM MODAL */
 .container-form {
   position: fixed;
   display: none;
